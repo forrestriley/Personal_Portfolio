@@ -9,12 +9,90 @@
     color:white
 }
 /* Nav */
-
+.navbar {
+    background-color: white;
+    height: 8vh;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
 .font-awesome-blackout {
-    color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
 }
 
+.font-awesome-blackout:hover {
+    color:rgb(219, 168, 101);
+    transition: 0.3s ease-in-out;
+}
+
+.altcademy-buttom {
+    background-color:rgb(219, 168, 101);
+    color:rgb(97, 97, 97);
+    padding: 5px 15px;
+    border-radius: 35px;
+    text-decoration: none;
+    transition: 0.5 background-color;
+}
+
+.altcademy-buttom:hover {
+    background-color: rgb(247, 190, 117);
+    color: rgb(150, 150, 150);
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: rgb(247, 190, 117);
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before {
+    width: 90%;
+    visibility: visible;
+}
+
+
 /* Section One */
+.hero-section {
+    background:url(https://picsum.photos/id/119/800/600) no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-section::before {
+    background-color: rgba(0,0,0,0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-section .container {
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+
+
 
 /* Section Two */
 
@@ -22,7 +100,15 @@
 
 /* Footer */
 
+.foot-link {
+    color:rgb(97, 97, 97);
+    font-size: 18px;
+}
 
+.foot-link:hover {
+    color: rgb(150, 150, 150);
+    transition: 0.3s ease-in-out;
+}
 
 
 
