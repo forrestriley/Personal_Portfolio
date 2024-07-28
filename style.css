@@ -100,13 +100,18 @@
 
 /* Footer */
 
+.footer {
+    background-color: white(97, 97, 97);
+    padding-top: 5px;
+}
+
 .foot-link {
-    color:rgb(97, 97, 97);
+    color: rgb(0, 0, 0);
     font-size: 18px;
 }
 
 .foot-link:hover {
-    color: rgb(150, 150, 150);
+    color: rgb(247, 190, 117);
     transition: 0.3s ease-in-out;
 }
 
