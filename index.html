@@ -5,65 +5,65 @@
   <meta name="viewport" content="width=device-width">
   <title>Portfolio</title>
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <!-- Fontawesome-->
-  <script src="https://kit.fontawesome.com/e067495424.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/12b5dfb658.js" crossorigin="anonymous"></script>
   <!-- CSS Link -->
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand bg-dark border-bottom border-body" data-bs-theme="dark">
-    <div class="containter-fluid">
-      <div class="collapse navbar-collapse " id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a href="#" class="nav-link active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fa-solid fa-bars font-awesome-blackout"></i>
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="#" class="dropdown-item">Github</a>
-              </li>
-              <li>
-                <a href="#" class="dropdown-item">Linkedin</a>
-              </li>
-              <li>
-                <a href="#" class="dropdown-item">Bootstrap</a>
-              <li>
-              <li>
-                <a href="#" class="dropdown-item">Altcademy</a>
-              <li>   
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand me-auto" href="#"><i class="fa-light fa-face-awesome font-awesome-blackout"></i></a>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 ">
+            <li class="nav-item">
+              <a class="nav-link font-awesome-blackout" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-awesome-blackout" href="#">HTML</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-awesome-blackout" href="#">CSS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-awesome-blackout" href="#">Bootstrap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-awesome-blackout" href="#">Javascript</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-awesome-blackout" href="#">Python</a>
+            </li>
           </ul>
-          <li class="nav-item">
-            <a href="#" class="nav-link linkReset">Github</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link linkReset">Linkedin</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link linkReset">Bootstrap</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link linkReset">Altcademy</a>
-          </li>
-          <li>
-        </ul>
+        </div>
       </div>
+      <a class="altcademy-buttom" href="https://www.altcademy.com/">Altcademy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class=""><i class="fa-light fa-bars font-awesome-blackout"></i></span>
+      </button>
     </div>
-    <!-- Picture with index link - left side -->
-
-    <!-- hamburger menu up to sm - 3-5 link buttons? -->
   </nav>
 
-  <main class="row">
+  <main class="hero-section" id="home">
+    <div class="container d-flex align-items-center justify-content-center fs-1 text-white">
+      <h1>A New Dev Is In Town</h1>
+    </div>
     <!-- Large picture -->
      <!-- Title Caption -->
       <!-- Sub-caption -->
   </main>
 
-  <section class="row"> <!-- html skills-->
+  <section class="row"> 
+    <!-- html skills-->
+    <h1></h1>
      <!-- col-12 col-md-6 col-xl-12 -->
   </section>
 
@@ -79,14 +79,8 @@
   <!-- col-12 col-md-6 col-xl-12 -->
  </section>
 
-  <footer class="row">
-    <!-- logo -->
-    <!-- github -->
-    <!-- linkedin -->
-    <!-- fontawesome -->
-    <!-- altcademy -->
-  </footer>
+  
 
 <!-- JavaScript for Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
