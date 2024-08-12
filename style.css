@@ -10,6 +10,7 @@
 }
 /* Nav */
 .navbar {
+    max-width: 100%;
     background-color: white;
     height: 8vh;
     margin: 20px;
@@ -97,8 +98,7 @@
 /* Section Two */
 
 .html {
-    width: 100%;
-    
+    max-width: 100%;
 }
 /* Section Three */
 
