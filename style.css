@@ -72,7 +72,7 @@
 .hero-section {
     background:url(https://picsum.photos/id/119/800/600) no-repeat center;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -98,7 +98,10 @@
 /* Section Two */
 
 .html {
-    max-width: 100%;
+    max-width: 90%;
+    margin: 0;
+    padding: 0;
+
 }
 /* Section Three */
 
